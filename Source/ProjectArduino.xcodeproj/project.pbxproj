@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7034F121739C8D00D1C28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7034F021739C8D00D1C28B /* AppDelegate.swift */; };
+		6D7034F621739C8D00D1C28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7034F421739C8D00D1C28B /* Main.storyboard */; };
+		6D7034F821739C8F00D1C28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7034F721739C8F00D1C28B /* Assets.xcassets */; };
+		6D7034FB21739C8F00D1C28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7034F921739C8F00D1C28B /* LaunchScreen.storyboard */; };
+		6D70350621739C8F00D1C28B /* ProjectArduinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70350521739C8F00D1C28B /* ProjectArduinoTests.swift */; };
+		6D70351121739C8F00D1C28B /* ProjectArduinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70351021739C8F00D1C28B /* ProjectArduinoUITests.swift */; };
+		6D70351F21739CAD00D1C28B /* BluetoothGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D70351E21739CAD00D1C28B /* BluetoothGateway.swift */; };
+		6D92F460217A249A003393F5 /* NoData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D92F45F217A249A003393F5 /* NoData.xib */; };
+		6D92F462217A24AD003393F5 /* NoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D92F461217A24AD003393F5 /* NoData.swift */; };
+		6DF3A3352173B94D00720EF1 /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3342173B94D00720EF1 /* BluetoothModel.swift */; };
+		6DF3A3392173C9CD00720EF1 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3382173C9CD00720EF1 /* DeviceCell.swift */; };
+		6DF3A33B2173CB2F00720EF1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A33A2173CB2F00720EF1 /* HomeScreen.swift */; };
+		6DF3A33E2173D6B000720EF1 /* ParingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A33D2173D6B000720EF1 /* ParingView.swift */; };
+		6DF3A3402173E13700720EF1 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A33F2173E13700720EF1 /* ServiceView.swift */; };
+		6DF3A3452174657E00720EF1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3442174657E00720EF1 /* UIViewController.swift */; };
+		6DF3A3472174665000720EF1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3462174665000720EF1 /* Constant.swift */; };
+		6DF3A3492174666B00720EF1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3482174666B00720EF1 /* String.swift */; };
+		6DF3A3C621765EE900720EF1 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3C521765EE900720EF1 /* AppError.swift */; };
+		6DF3A3CA21788DCE00720EF1 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3A3C921788DCE00720EF1 /* MessageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D70350221739C8F00D1C28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7034E521739C8D00D1C28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7034EC21739C8D00D1C28B;
+			remoteInfo = ProjectArduino;
+		};
+		6D70350D21739C8F00D1C28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7034E521739C8D00D1C28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7034EC21739C8D00D1C28B;
+			remoteInfo = ProjectArduino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D7034ED21739C8D00D1C28B /* ProjectArduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectArduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7034F021739C8D00D1C28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7034F521739C8D00D1C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D7034F721739C8F00D1C28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7034FA21739C8F00D1C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D7034FC21739C8F00D1C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D70350121739C8F00D1C28B /* ProjectArduinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectArduinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D70350521739C8F00D1C28B /* ProjectArduinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectArduinoTests.swift; sourceTree = "<group>"; };
+		6D70350721739C8F00D1C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D70350C21739C8F00D1C28B /* ProjectArduinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectArduinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D70351021739C8F00D1C28B /* ProjectArduinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectArduinoUITests.swift; sourceTree = "<group>"; };
+		6D70351221739C8F00D1C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D70351E21739CAD00D1C28B /* BluetoothGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothGateway.swift; sourceTree = "<group>"; };
+		6D92F45F217A249A003393F5 /* NoData.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoData.xib; sourceTree = "<group>"; };
+		6D92F461217A24AD003393F5 /* NoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoData.swift; sourceTree = "<group>"; };
+		6DF3A3342173B94D00720EF1 /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
+		6DF3A3382173C9CD00720EF1 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		6DF3A33A2173CB2F00720EF1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		6DF3A33D2173D6B000720EF1 /* ParingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParingView.swift; sourceTree = "<group>"; };
+		6DF3A33F2173E13700720EF1 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		6DF3A3442174657E00720EF1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6DF3A3462174665000720EF1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6DF3A3482174666B00720EF1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6DF3A3C521765EE900720EF1 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		6DF3A3C921788DCE00720EF1 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7034EA21739C8D00D1C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7034FE21739C8F00D1C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D70350921739C8F00D1C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7034E421739C8D00D1C28B = {
+			isa = PBXGroup;
+			children = (
+				6D7034EF21739C8D00D1C28B /* ProjectArduino */,
+				6D70350421739C8F00D1C28B /* ProjectArduinoTests */,
+				6D70350F21739C8F00D1C28B /* ProjectArduinoUITests */,
+				6D7034EE21739C8D00D1C28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7034EE21739C8D00D1C28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7034ED21739C8D00D1C28B /* ProjectArduino.app */,
+				6D70350121739C8F00D1C28B /* ProjectArduinoTests.xctest */,
+				6D70350C21739C8F00D1C28B /* ProjectArduinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7034EF21739C8D00D1C28B /* ProjectArduino */ = {
+			isa = PBXGroup;
+			children = (
+				6D92F45E217A248E003393F5 /* NoData */,
+				6DF3A3422174656B00720EF1 /* Utils */,
+				6DF3A33C2173D52500720EF1 /* Paring Screen */,
+				6DF3A3372173C99500720EF1 /* Service Screen */,
+				6DF3A3362173C98000720EF1 /* Scan Screen */,
+				6DF3A3332173B93900720EF1 /* Bluetooth */,
+				6D7034F021739C8D00D1C28B /* AppDelegate.swift */,
+				6D7034F421739C8D00D1C28B /* Main.storyboard */,
+				6D7034F721739C8F00D1C28B /* Assets.xcassets */,
+				6D7034F921739C8F00D1C28B /* LaunchScreen.storyboard */,
+				6D7034FC21739C8F00D1C28B /* Info.plist */,
+			);
+			path = ProjectArduino;
+			sourceTree = "<group>";
+		};
+		6D70350421739C8F00D1C28B /* ProjectArduinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D70350521739C8F00D1C28B /* ProjectArduinoTests.swift */,
+				6D70350721739C8F00D1C28B /* Info.plist */,
+			);
+			path = ProjectArduinoTests;
+			sourceTree = "<group>";
+		};
+		6D70350F21739C8F00D1C28B /* ProjectArduinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D70351021739C8F00D1C28B /* ProjectArduinoUITests.swift */,
+				6D70351221739C8F00D1C28B /* Info.plist */,
+			);
+			path = ProjectArduinoUITests;
+			sourceTree = "<group>";
+		};
+		6D92F45E217A248E003393F5 /* NoData */ = {
+			isa = PBXGroup;
+			children = (
+				6D92F45F217A249A003393F5 /* NoData.xib */,
+				6D92F461217A24AD003393F5 /* NoData.swift */,
+			);
+			path = NoData;
+			sourceTree = "<group>";
+		};
+		6DF3A3332173B93900720EF1 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				6D70351E21739CAD00D1C28B /* BluetoothGateway.swift */,
+				6DF3A3342173B94D00720EF1 /* BluetoothModel.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		6DF3A3362173C98000720EF1 /* Scan Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3A3382173C9CD00720EF1 /* DeviceCell.swift */,
+				6DF3A33A2173CB2F00720EF1 /* HomeScreen.swift */,
+			);
+			path = "Scan Screen";
+			sourceTree = "<group>";
+		};
+		6DF3A3372173C99500720EF1 /* Service Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3A33F2173E13700720EF1 /* ServiceView.swift */,
+				6DF3A3C921788DCE00720EF1 /* MessageCell.swift */,
+			);
+			path = "Service Screen";
+			sourceTree = "<group>";
+		};
+		6DF3A33C2173D52500720EF1 /* Paring Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3A33D2173D6B000720EF1 /* ParingView.swift */,
+			);
+			path = "Paring Screen";
+			sourceTree = "<group>";
+		};
+		6DF3A3422174656B00720EF1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3A3432174657000720EF1 /* Extension */,
+				6DF3A3462174665000720EF1 /* Constant.swift */,
+				6DF3A3C521765EE900720EF1 /* AppError.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6DF3A3432174657000720EF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3A3442174657E00720EF1 /* UIViewController.swift */,
+				6DF3A3482174666B00720EF1 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7034EC21739C8D00D1C28B /* ProjectArduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D70351521739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduino" */;
+			buildPhases = (
+				6D7034E921739C8D00D1C28B /* Sources */,
+				6D7034EA21739C8D00D1C28B /* Frameworks */,
+				6D7034EB21739C8D00D1C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectArduino;
+			productName = ProjectArduino;
+			productReference = 6D7034ED21739C8D00D1C28B /* ProjectArduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D70350021739C8F00D1C28B /* ProjectArduinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D70351821739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduinoTests" */;
+			buildPhases = (
+				6D7034FD21739C8F00D1C28B /* Sources */,
+				6D7034FE21739C8F00D1C28B /* Frameworks */,
+				6D7034FF21739C8F00D1C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D70350321739C8F00D1C28B /* PBXTargetDependency */,
+			);
+			name = ProjectArduinoTests;
+			productName = ProjectArduinoTests;
+			productReference = 6D70350121739C8F00D1C28B /* ProjectArduinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D70350B21739C8F00D1C28B /* ProjectArduinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D70351B21739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduinoUITests" */;
+			buildPhases = (
+				6D70350821739C8F00D1C28B /* Sources */,
+				6D70350921739C8F00D1C28B /* Frameworks */,
+				6D70350A21739C8F00D1C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D70350E21739C8F00D1C28B /* PBXTargetDependency */,
+			);
+			name = ProjectArduinoUITests;
+			productName = ProjectArduinoUITests;
+			productReference = 6D70350C21739C8F00D1C28B /* ProjectArduinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7034E521739C8D00D1C28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Abhishek  Kumar Ravi";
+				TargetAttributes = {
+					6D7034EC21739C8D00D1C28B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6D70350021739C8F00D1C28B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6D7034EC21739C8D00D1C28B;
+					};
+					6D70350B21739C8F00D1C28B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6D7034EC21739C8D00D1C28B;
+					};
+				};
+			};
+			buildConfigurationList = 6D7034E821739C8D00D1C28B /* Build configuration list for PBXProject "ProjectArduino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7034E421739C8D00D1C28B;
+			productRefGroup = 6D7034EE21739C8D00D1C28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7034EC21739C8D00D1C28B /* ProjectArduino */,
+				6D70350021739C8F00D1C28B /* ProjectArduinoTests */,
+				6D70350B21739C8F00D1C28B /* ProjectArduinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7034EB21739C8D00D1C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7034FB21739C8F00D1C28B /* LaunchScreen.storyboard in Resources */,
+				6D7034F821739C8F00D1C28B /* Assets.xcassets in Resources */,
+				6D92F460217A249A003393F5 /* NoData.xib in Resources */,
+				6D7034F621739C8D00D1C28B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7034FF21739C8F00D1C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D70350A21739C8F00D1C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7034E921739C8D00D1C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7034F121739C8D00D1C28B /* AppDelegate.swift in Sources */,
+				6DF3A3CA21788DCE00720EF1 /* MessageCell.swift in Sources */,
+				6D92F462217A24AD003393F5 /* NoData.swift in Sources */,
+				6DF3A33E2173D6B000720EF1 /* ParingView.swift in Sources */,
+				6DF3A3492174666B00720EF1 /* String.swift in Sources */,
+				6DF3A3472174665000720EF1 /* Constant.swift in Sources */,
+				6DF3A3402173E13700720EF1 /* ServiceView.swift in Sources */,
+				6DF3A33B2173CB2F00720EF1 /* HomeScreen.swift in Sources */,
+				6DF3A3352173B94D00720EF1 /* BluetoothModel.swift in Sources */,
+				6DF3A3392173C9CD00720EF1 /* DeviceCell.swift in Sources */,
+				6DF3A3C621765EE900720EF1 /* AppError.swift in Sources */,
+				6DF3A3452174657E00720EF1 /* UIViewController.swift in Sources */,
+				6D70351F21739CAD00D1C28B /* BluetoothGateway.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7034FD21739C8F00D1C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D70350621739C8F00D1C28B /* ProjectArduinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D70350821739C8F00D1C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D70351121739C8F00D1C28B /* ProjectArduinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D70350321739C8F00D1C28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7034EC21739C8D00D1C28B /* ProjectArduino */;
+			targetProxy = 6D70350221739C8F00D1C28B /* PBXContainerItemProxy */;
+		};
+		6D70350E21739C8F00D1C28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7034EC21739C8D00D1C28B /* ProjectArduino */;
+			targetProxy = 6D70350D21739C8F00D1C28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D7034F421739C8D00D1C28B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7034F521739C8D00D1C28B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D7034F921739C8F00D1C28B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7034FA21739C8F00D1C28B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D70351321739C8F00D1C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D70351421739C8F00D1C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D70351621739C8F00D1C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4FF9D6BAFN;
+				INFOPLIST_FILE = ProjectArduino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "650ed378-4f4d-4704-84a7-8be21edcfc80";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_Restman;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D70351721739C8F00D1C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ProjectArduino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D70351921739C8F00D1C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjectArduinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman.ProjectArduinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectArduino.app/ProjectArduino";
+			};
+			name = Debug;
+		};
+		6D70351A21739C8F00D1C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjectArduinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman.ProjectArduinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectArduino.app/ProjectArduino";
+			};
+			name = Release;
+		};
+		6D70351C21739C8F00D1C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjectArduinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman.ProjectArduinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectArduino;
+			};
+			name = Debug;
+		};
+		6D70351D21739C8F00D1C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProjectArduinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.in.greensyntax.Restman.ProjectArduinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectArduino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7034E821739C8D00D1C28B /* Build configuration list for PBXProject "ProjectArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D70351321739C8F00D1C28B /* Debug */,
+				6D70351421739C8F00D1C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D70351521739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D70351621739C8F00D1C28B /* Debug */,
+				6D70351721739C8F00D1C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D70351821739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D70351921739C8F00D1C28B /* Debug */,
+				6D70351A21739C8F00D1C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D70351B21739C8F00D1C28B /* Build configuration list for PBXNativeTarget "ProjectArduinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D70351C21739C8F00D1C28B /* Debug */,
+				6D70351D21739C8F00D1C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7034E521739C8D00D1C28B /* Project object */;
+}
