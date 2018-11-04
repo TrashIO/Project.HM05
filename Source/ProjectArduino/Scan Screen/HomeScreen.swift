@@ -41,6 +41,11 @@ class HomeScreen: UIViewController {
         stopScaning()
     }
     
+    @IBAction func actionWalkthrough(_ sender: Any) {
+
+        self.present(WalkthroughView.instance(), animated: true, completion: nil)
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
